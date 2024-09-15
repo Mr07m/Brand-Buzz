@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Brand Buzz</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"  />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="shortcut icon" href="./extraimg/testi1.png" type="image/x-icon">
+        <style>
+            
+            :root{
+                --my-orgage:rgb(162, 243, 13);
+            }
+            .my-org{
+                color: var(--my-orgage);
+            }
+            .my-org-bg{
+                background-color: var(--my-orgage);
+            }
+            .dropdown-icon{
+                background-color: orange;
+                border-radius: 50%;
+               height: 30px;
+               padding: 5px;
+               border: 1px solid;
+               margin-right: 3px;
+               cursor: pointer;
+            }
+            .my-card{
+                position: relative;
+                border-radius: 12px;
+            }
+            .my-card-img{
+                position: absolute;
+                top: 4px;
+                left: 13px;
+                background-color: #d66666;
+            }
+            .my-list{
+                display: flex;
+                column-gap: 15px;
+                align-items: center;
+                margin: 10px 0px;
+            }
+            .num{
+                padding: 10px;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                background-color: #dfee12;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .title{
+                line-height: 1px;
+            }
+            .magic{
+                position: relative;
+            }
+            .magical-img1{
+                position: absolute;
+                height: 150px;
+            }
+            .magical-img2{
+                position: absolute;
+                height: 150px;
+                left: 420px;
+                top: -9px;
+                transform: rotateY(180deg);
+            }
+            .user{
+                display: flex;
+                gap: 10px;
+                padding: 10px;
+            }
+            .arrow-img{
+                border: 1px solid orange;
+                border-radius: 50%;
+                padding: 5px;
+                cursor: pointer;
+            }
+            .some-text{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .contact-btn:hover{
+                color: orange;
+
+            }
+            li{
+                list-style: none;
+                cursor: pointer;
+            }
+            .fa-brands{
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header class="">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container">
+                  <a class="navbar-brand fs-6" href="#"><img src="./extraimg/testi1.png" height="40px" alt=""> Brand Buzz</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item mx-4">
+                        <a class="nav-link  fw-bold my-org" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item mx-4">
+                        <a class="nav-link " aria-current="page" href="#">About me</a>
+                      </li>
+                      <li class="nav-item mx-4">
+                        <a class="nav-link " aria-current="page" href="#">Services</a>
+                      </li> 
+                      <li class="nav-item mx-4">
+                        <a class="nav-link " aria-current="page" href="#">Contact me</a>
+                      </li>      
+                      <li class="nav-item mx-4">
+                        <a class="nav-link " aria-current="page" href="#">Blog</a>
+                      </li>               
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="btn btn-warning px-4" href="#">Sign Up</a>
+                        </li>
+                    </ul>  
+                    
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main>
+            <div class="container my-2">
+                <div class="row justify-content-center align-items-center g-2">
+                    <div class="col-12 co-sm-12 col-md-6 col-lg-6">
+                        <h3 class="fw-bold">We Create <br> <span class="text-warning">solutions</span> for <br>your business</h3>
+                        <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos non corrupti ea iste, libero molestias atque maiores enim quam corporis</p>
+                        <button class="btn btn-warning px-4">Get Started</button>
+                    </div>
+                    <div class="col-12 co-sm-12 col-md-6 col-lg-6">
+                        <div class="home-img">
+                            <img src="./extraimg/New-skills-img.avif" class="img-fluid w-100">
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="container py-3">
+                <img src="./extraimg/dropdown.png"  class="dropdown-icon"> <span>Explore more</span>
+            </div>
+
+            <div class="container py-3">
+                <div class="heading text-center">
+                    <h3 class="fw-bold">We Provide The Best <span class="text-warning">Services</span></h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime velit magnam mollitia suscipit, dolorem quo.</p>
+                </div>
+                <div class="row justify-content-center align-items-center g-3 my-3  py-2">
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3  ">
+                        <div class="my-card shadow-lg border p-3">
+                            <img src="./extraimg/testi1.png" height="50px" class="my-card-img">
+                            <h6 class="fw-bold mt-5">Seo/Sem</h6>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illum </p> <br>
+                            <a href="#" class="btn btn-outline-warning text-muted">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3  ">
+                        <div class="my-card shadow-lg border p-3">
+                            <img src="./extraimg/testi1.png" height="50px" class="my-card-img">
+                            <h6 class="fw-bold mt-5">Marketing</h6>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illum </p> <br>
+                            <a href="#" class="btn text-muted btn-outline-warning">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3  ">
+                        <div class="my-card shadow-lg border p-3">
+                            <img src="./img/testimonials/testi1.png" height="50px" class="my-card-img">
+                            <h6 class="fw-bold mt-5">Viral Campaign</h6>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illum </p> <br>
+                            <a href="#" class="btn text-muted btn-outline-warning">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3  ">
+                        <div class="my-card shadow-lg border p-3">
+                            <img src="./extraimg/testi1.png" height="50px" class="my-card-img">
+                            <h6 class="fw-bold mt-5">Other</h6>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illum </p> <br>
+                            <a href="#" class="btn text-muted btn-outline-warning">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="container-fluid bg-white">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center g-2">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="img2">
+                                <img src="./extraimg/New-service-img.avif" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="content">
+                                <h4>Simple <span class="text-warning">Solutions!</span></h4>
+                                <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta sint ipsam beatae eveniet odio quia magni eligendi amet odit iure.</p>
+                                <div class="my-list  ">
+                                    <div class="num ">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="title ">
+                                        <h6 class="fw-bold">Contact us</h6>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                </div>
+                                <div class="my-list  ">
+                                    <div class="num ">
+                                        <span>2</span>
+                                    </div>
+                                    <div class="title ">
+                                        <h6 class="fw-bold">Consult</h6>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                </div>
+                                <div class="my-list  ">
+                                    <div class="num ">
+                                        <span>3</span>
+                                    </div>
+                                    <div class="title ">
+                                        <h6 class="fw-bold">Place Order</h6>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                </div>
+                                <div class="my-list  ">
+                                    <div class="num ">
+                                        <span>4</span>
+                                    </div>
+                                    <div class="title ">
+                                        <h6 class="fw-bold">Payment</h6>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                </div>
+
+                                <div class="two-btn pt-3">
+                                    <a href="#" class="btn btn-warning text-white fw-bold">Get Started</a>
+                                    <a href="#" class="btn btn-outline-warning text-dark fw-bold mx-5">Read more</a>
+                                </div>
+                               
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="container ">
+                <div class="row justify-content-start align-items-start g-2 ">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+                        <div class="agency ">
+                            <h3 class="fw-bold">Our <span class="text-warning">Agency</span></h3>
+                            <p class="text-muted">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Tenetur autem aliquam magni illo excepturi <br> similique corporis aliquid omnis voluptas <br> voluptatum cum adipisci enim unde, nihil <br> natus libero maiores voluptate <br> distinctio?</p>
+                            <a href="#" class="btn btn-warning text-white fw-bold">Read more</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 magic">
+                        <div class="img3">
+                            <img src="./extraimg/magical.png" class="magical-img1 d-none d-md-block d-lg-block"  alt="">
+                            <img src="./extraimg/magical.png" class="magical-img2 d-none d-md-block d-lg-block"  alt="">
+                            <img src="./extraimg/New-aboutus-img.avif" class="img-fluid w-100">
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="container">
+                <div class="heading-title text-center">
+                    <h3 class="fw-bold">What <span class="text-warning">Clients Say!</span></h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel, alias assumenda veniam aut nam!</p>
+                </div>
+                <div class="row justify-content-center align-items-center g-2">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="feedback border rounded my-3">
+                            <div class="user ">
+                                <div class="user-img">
+                                    <img src="./extraimg/testi1.png" class="user-icon">  
+                                </div>
+                                <div class="user-name">
+                                    <h6 class="fw-bold text-warning">Joker 1</h6>
+                                    <p class="text-muted">MBBS</p>
+                                </div>                                
+                            </div>
+                            <p class="text-muted px-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, ratione. Sequi iste inventore hic odio, fugit magni facilis qui vel!</p>
+                            <div class="stars px-3">
+                                <span><i class="fa-solid fa-star text-warning"></i></span>
+                                <span><i class="fa-solid fa-star text-warning"></i></span>
+                                <span><i class="fa-solid fa-star text-warning"></i></span>
+                                <span><i class="fa-solid fa-star text-warning"></i></span>
+                                <span><i class="fa-regular fa-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="feedback border rounded my-3">
+                            <div class="user ">
+                                <div class="user-img">
+                                    <img src="./extraimg/testi1.png" class="user-icon"> 
+                                </div>
+                                <div class="user-name">
+                                    <h6 class="fw-bold text-warning">Joker 1</h6>
+                                    <p class="text-muted">MBBS</p>
+                                </div>                                
+                            </div>
+                            <p class="text-muted px-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, ratione. Sequi iste inventore hic odio, fugit magni facilis qui vel!</p>
+                            <div class="stars px-3">
+                                <span><i class="fa-solid fa-star text-warning"></i></span>
+                                <span><i class="fa-solid fa-star text-warning"></i></span>
+                                <span><i class="fa-solid fa-star text-warning"></i></span>
+                                <span><i class="fa-regular fa-star"></i></span>
+                                <span><i class="fa-regular fa-star "></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="feedback border rounded my-3">
+                            <div class="user ">
+                                <div class="user-img">
+                                    <img src="./extraimg/testi1.png" class="user-icon"> 
+                                </div>
+                                <div class="user-name">
+                                    <h6 class="fw-bold text-warning">Joker 1</h6>
+                                    <p class="text-muted">MBBS</p>
+                                </div>                                
+                            </div>
+                            <p class="text-muted px-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, ratione. Sequi iste inventore hic odio, fugit magni facilis qui vel!</p>
+                            <div class="stars px-3">
+                                <span><i class="fa-solid fa-star text-warning"></i></span>
+                                <span><i class="fa-solid fa-star text-warning"></i></span>
+                                <span><i class="fa-solid fa-star text-warning"></i></span>
+                                <span><i class="fa-regular fa-star "></i></span>
+                                <span><i class="fa-regular fa-star "></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center  g-2">
+                   <div class="col-12">
+                    <img src="./extraimg/left-arrow.png" height="30px" class="mx-4 my-3 arrow-img">
+                    <span class="text-muted">2 of 40</span>
+                    <img src="./extraimg/right-arrow.png" height="30px" class="mx-4 my-3 arrow-img">
+                   </div>
+                </div>   
+            </div>
+
+            <div class="container py-3 bg-warning rounded my-3">
+                <div class="row justify-content-center align-items-center g-2">
+                    <div class="col-12">
+                        <div class="some-text">
+                            <h3 class="fw-bold text-dark">Ready to get started?</h3>
+                            <a href="#" class="btn btn-outline-light contact-btn text-dark fw-bold px-5 py-2">Contact</a>
+                        </div>
+                    </div>                    
+                </div>
+                
+                    
+            </div>
+        </main>
+        <footer>
+           <div class="container py-2 my-2">
+            <div class="row justify-content-center align-items-start  py-3 g-2">
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="footer-logo ">
+                        <img src="./img/testimonials/testi1.png" height="30px" class="m-3">
+                        <span class="text-warning fw-bold">BrandBuzz</span>
+                        <div class="social-icon">
+                            <span class="mx-2 fs-4  rounded p-1"><i class="fa-brands fa-facebook"></i></span>
+                            <span class="mx-2 fs-4  rounded p-1"><i class="fa-brands fa-instagram"></i></span>
+                            <span class="mx-2 fs-4  rounded p-1"><i class="fa-brands fa-twitter"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="company">
+                        <h6 class="fw-bold">Company</h6>
+                        <li class="text-muted">About</li>
+                        <li class="text-muted">Contact</li>
+                        <li class="text-muted">Careers</li>
+                        <li class="text-muted">Team</li>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="design">
+                        <h6 class="fw-bold">Designs</h6>
+                        <li class="text-muted">Design contests</li>
+                        <li class="text-muted">1-to-1 projects</li>
+                        <li class="text-muted">Find a designer</li>
+                        <li class="text-muted">Pricing</li>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="resource">
+                        <h6 class="fw-bold">Resources</h6>
+                        <li class="text-muted">Become a designer</li>
+                        <li class="text-muted">Blog</li>
+                        <li class="text-muted">Design without borders</li>
+                        <li class="text-muted">99awards</li>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-start">
+                <div class="col-12">
+                    <p class="text-muted">© All Rights reserved 2024.</p>
+                </div>
+            </div>
+            
+           </div>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
